@@ -1,0 +1,14 @@
+May 27, 2010
+  refactored code to clarify the logic and added better logging
+  
+May 10, 2020
+  updated jar dependencies
+
+2019-10-24
+  moved hardcoded value of 181 (pipeline id) into properties file
+
+ver. 1.0.1 -- Oct 1, 2018
+  moved from subversion to github
+
+ver. 1.0.0 -- May 30, 2017
+  converted from bash script to full blown java application

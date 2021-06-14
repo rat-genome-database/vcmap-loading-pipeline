@@ -1,0 +1,14 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+    <bean id="manager" class="edu.mcw.rgd.pipelines.VCMapLoader" >
+        <property name="version" value="VCMap Loader  -- build June 14, 2021" />
+        <property name="nr" value="5"/>
+        <property name="dao" ref="dao"/>
+    </bean>
+
+    <bean id="dao" class="edu.mcw.rgd.pipelines.Dao" >
+        <property name="version" value="VCMap Loader DAO" />
+    </bean>
+
+</beans>
