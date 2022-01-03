@@ -1,2 +1,5 @@
+Jan 03, 2022
+  updated log4j to avoid zero day exploit
+
 June 14, 2021
   initial commit
