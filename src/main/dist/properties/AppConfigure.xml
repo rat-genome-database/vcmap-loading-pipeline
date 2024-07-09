@@ -2,7 +2,7 @@
 
 <beans>
     <bean id="manager" class="edu.mcw.rgd.pipelines.VCMapLoader" >
-        <property name="version" value="VCMap Loader  -- build Feb 20, 2023" />
+        <property name="version" value="VCMap Loader  -- build Jul 09, 2024" />
         <property name="nr" value="5"/>
         <property name="dao" ref="dao"/>
     </bean>
